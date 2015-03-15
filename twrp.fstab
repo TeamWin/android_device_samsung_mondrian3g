@@ -6,3 +6,4 @@
 /external_sd		vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1
 /efs		emmc		/dev/block/platform/msm_sdcc.1/by-name/efs
 /modem		emmc		/dev/block/platform/msm_sdcc.1/by-name/modem
+/usb-otg         vfat       /dev/block/sda1     /dev/block/sda  flags=display="USB-OTG";storage;wipeingui;removable
